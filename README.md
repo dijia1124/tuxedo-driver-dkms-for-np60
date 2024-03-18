@@ -1,8 +1,9 @@
 # Tuxedo Driver DKMS for NP60
 
-This bash script facilitates the installation of the "tuxedo-driver-dkms" package from the AUR, specifically tailored for Clevo NP60 laptops.
+This bash script facilitates the installation of the "tuxedo-driver-dkms" package from the AUR, specifically tailored for Clevo NP60 laptops running arch linux.
 
 ## Usage
+Need have wget installed.
 
 To use the script, first make it executable and then run it:
 
