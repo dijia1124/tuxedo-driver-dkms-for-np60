@@ -2,6 +2,12 @@
 
 This bash script facilitates the installation of the "tuxedo-driver-dkms" package from the AUR, specifically tailored for Clevo NP60 laptops running arch linux, should also work on other new Clevo Laptops that aren't rebranded by Tuxedo.
 
+The core functionality of this script is to ensure that the tuxedo-driver-dkms package can be installed and operated on Clevo NP60 laptops, as well as other newer Clevo models not explicitly supported by Tuxedo. The script achieves this by modifying the tuxedo_is_compatible function within the Tuxedo drivers' source code.
+
+By default, the tuxedo_is_compatible function checks the system's hardware against a predefined list of supported devices. If the device is not recognized, the function returns false, preventing the driver from proceeding with the installation or operation.
+
+This script intervenes by altering the source code of the tuxedo_is_compatible function so that it always returns true. 
+
 ## Usage
 Need have wget installed.
 
