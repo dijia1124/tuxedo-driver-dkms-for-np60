@@ -30,8 +30,7 @@ tar -xzf "${pkgname}-${pkgver}.tar.gz"
 # Navigate to source directory
 cd "${pkgname}-${pkgver}"
 echo "Applying modifications..."
-# Make your modifications here
-# For example, using sed to replace text in a file
+# Make modifications
 cp "$modfile" "${modfile}.bak"
 # Replace method body with 'awk'
 awk '
