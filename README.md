@@ -18,4 +18,9 @@ chmod +x install.sh
 ./install.sh
 ```
 
+
 During the execution, you will be prompted to enter the pkgver (package version) of the tuxedo-drivers. You can find the current version by visiting the [tuxedo-drivers-dkms](https://aur.archlinux.org/packages/tuxedo-drivers-dkms) package page on AUR. For example, if "tuxedo-drivers-dkms-4.3.2.tar.gz" is listed in the sources, the pkgver to use would be 4.3.2.
+
+## Acknowledgements
+
+This script was inspired by a discussion on the [Arch Linux Chinese Community Forum](https://bbs.archlinuxcn.org/viewtopic.php?pid=56364#p56364), and it builds upon the foundational work provided by the Tuxedo Team through their [Tuxedo drivers](https://github.com/tuxedocomputers/tuxedo-drivers). Special thanks to Tee, the original poster, for sharing the insightful idea that laid the groundwork for this script, and to the Tuxedo Team for their dedication to creating and maintaining these essential drivers, and [StevenSeifried](https://aur.archlinux.org/account/StevenSeifried), maintainer of the AUR package [tuxedo-drivers-dkms](https://aur.archlinux.org/packages/tuxedo-drivers-dkms).
