@@ -2,7 +2,7 @@
 
 # Set variables
 pkgname="tuxedo-drivers"
-pkgver="4.3.2"
+pkgver=""
 aururl="https://aur.archlinux.org/cgit/aur.git/snapshot/${pkgname}-dkms.tar.gz"
 srcurl="https://github.com/tuxedocomputers/tuxedo-drivers/archive/refs/tags/v${pkgver}.tar.gz"
 workdir="$HOME/.cache/${pkgname}"
